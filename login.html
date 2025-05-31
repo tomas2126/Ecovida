@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Ecovida</title>
+  <style>
+    /* Fondo con imagen de animales y filtro */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    /* Capa oscura para mejorar lectura */
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(34, 85, 34, 0.7);
+      z-index: -1;
+    }
+
+    .login-container {
+      background: rgba(0, 100, 0, 0.85);
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-family: 'Georgia', serif;
+      font-size: 2rem;
+      color: #a8d5a3;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      text-align: left;
+      font-weight: 600;
+      color: #cdeac0;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px 12px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+      outline: none;
+      box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+      transition: box-shadow 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      box-shadow: 0 0 8px #a3d977;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: #cdeac0;
+    }
+
+    button[type="submit"] {
+      background-color: #66bb6a;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 6px rgba(51, 90, 32, 0.7);
+    }
+
+    button[type="submit"]:hover {
+      background-color: #4caf50;
+      box-shadow: 0 4px 8px rgba(34, 85, 34, 0.9);
+    }
+
+    .login-footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #cdeac0;
+    }
+
+    .login-footer a {
+      color: #a8d5a3;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .login-footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="login-container">
+    <h2>Ingreso a Ecovida</h2>
+    <form id="login-form">
+      <label for="username">Usuario</label>
+      <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required />
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required />
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="remember" name="remember" />
+        <label for="remember">Recordarme</label>
+      </div>
+
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <div class="login-footer">
+      ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
+    </div>
+  </div>
+
+  <script>
+    // Ejemplo básico: prevenir envío y mostrar alerta
+    document.getElementById('login-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const username = this.username.value.trim();
+      const password = this.password.value.trim();
+
+      if(username && password) {
+        alert(`Bienvenido, ${username}! (Función de login aún no implementada)`);
+        // Aquí iría la lógica real para validar credenciales y redirigir
+      } else {
+        alert('Por favor completa todos los campos.');
+      }
+    });
+  </script>
+</body>
+</html>
