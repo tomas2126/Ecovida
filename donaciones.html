@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donaciones - Ecovida</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6f2e6;
+      color: #2f4f2f;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.1);
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background-color: #3cb371;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2e8b57;
+    }
+
+    .footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Donaciones a Ecovida</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Gracias por querer apoyar nuestras iniciativas de conservación. Tu donación
+        puede marcar una gran diferencia.
+      </p>
+
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="monto">Monto de donación (COP):</label>
+        <input type="number" id="monto" name="monto" required />
+
+        <button type="submit">Donar ahora</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    &copy; 2025 Ecovida - Todos los derechos reservados.
+  </footer>
+</body>
+</html>

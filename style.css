@@ -1,0 +1,66 @@
+.botones-login-exit {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 20px;       /* Cambiado de left a right */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .botones-login-exit button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login-btn {
+    background-color: #2e7d32; /* verde oscuro */
+  }
+  
+  #login-btn:hover {
+    background-color: #1b5e20;
+  }
+  
+  #exit-btn {
+    background-color: #c62828; /* rojo oscuro */
+  }
+  
+  #exit-btn:hover {
+    background-color: #8e1c1c;
+  } 
+  
+  header {
+    background: #4caf50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    right: 20px; /* Cambiado de left: 20px; a right: 20px; */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .titulo-ecovida {
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .botones-login-exit {
+    display: flex;
+    gap: 10px;
+    flex: 0 0 auto;
+  }
+  
