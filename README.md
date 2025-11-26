@@ -1,8 +1,5 @@
 ## 📌 Integrantes del equipo
 - **Nombre:** Tomas David Portilla  
-- **Correo institucional:** (colocas tu correo)  
-- **ID Banner:** (colocas tu ID)
-
 *(Si tienes otros compañeros, los agregas aquí)*
 
 ---
