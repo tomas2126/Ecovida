@@ -1,8 +1,3 @@
-royecto web sencillo desarrollado para la actividad **“Utilizando sistemas de control de versiones”** del curso **Mantenimiento de Software**.  
-El objetivo es practicar el uso de Git y GitHub con ramas, historias de usuario, commits y trabajo colaborativo.
-
----
-
 ## 📌 Integrantes del equipo
 - **Nombre:** Tomas David Portilla  
 - **Correo institucional:** (colocas tu correo)  
