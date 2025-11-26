@@ -38,7 +38,7 @@ El sitio se abrirá en el navegador.
 
 ---
 
-## 🔧 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **HTML5**  
 - **CSS3**  
@@ -54,7 +54,7 @@ Las historias de usuario se encuentran en:
 
 ---
 
-## 🛠 Comandos Git utilizados
+##  Comandos Git utilizados
 
 Durante esta actividad se deben utilizar y documentar:
 
@@ -83,7 +83,7 @@ Repositorio oficial del proyecto:
 
 ---
 
-## ✔ Estado actual
+##  Estado actual
 Proyecto en desarrollo para cumplir con los requerimientos de la Actividad 4 del curso.
 
 ---
