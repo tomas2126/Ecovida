@@ -1,8 +1,8 @@
-## 📌 Integrantes del equipo
+##  Integrantes del equipo
 - **Nombre:** Tomas David Portilla  
 ---
 
-## 📌 Descripción del proyecto
+##  Descripción del proyecto
 Ecovida es una aplicación web básica que simula una plataforma de apoyo a la conservación ambiental.  
 Incluye:
 
@@ -15,12 +15,12 @@ Incluye:
 
 ---
 
-## 📂 Estructura del repositorio
+##  Estructura del repositorio
 
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 
 1. Descargar o clonar el repositorio:
 
@@ -47,10 +47,10 @@ El sitio se abrirá en el navegador.
 
 ---
 
-## 🧩 Historias de Usuario
+##  Historias de Usuario
 
 Las historias de usuario se encuentran en:  
-👉 `historias_usuario.md`
+ `historias_usuario.md`
 
 ---
 
@@ -76,10 +76,10 @@ Durante esta actividad se deben utilizar y documentar:
 
 ---
 
-## 🔗 Enlace al repositorio
+##  Enlace al repositorio
 Repositorio oficial del proyecto:
 
-👉 https://github.com/tomas2126/Ecovida
+ https://github.com/tomas2126/Ecovida
 
 ---
 
