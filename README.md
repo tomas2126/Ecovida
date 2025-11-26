@@ -1,7 +1,5 @@
 ## 📌 Integrantes del equipo
 - **Nombre:** Tomas David Portilla  
-*(Si tienes otros compañeros, los agregas aquí)*
-
 ---
 
 ## 📌 Descripción del proyecto
